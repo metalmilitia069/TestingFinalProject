@@ -63,23 +63,25 @@ namespace TestingFinalProject
 
                     rect.Location = rectanglePivot;
 
-                    if (rect.Right > pictureBox1.Width)
-                    {
-                        rect.X = pictureBox1.Width - rect.Width;
-                    }
-                    if (rect.Top < 0)
-                    {
-                        rect.Y = 0;
-                    }
-                    if (rect.Left < 0)
-                    {
-                        rect.X = 0;
-                    }
-                    if (rect.Bottom > pictureBox1.Height)
-                    {
-                        rect.Y = pictureBox1.Height - rect.Height;
-                    }
-                    Refresh();
+                    //if (rect.Right > pictureBox1.Width)
+                    //{
+                    //    rect.X = pictureBox1.Width - rect.Width;
+                    //}
+                    //if (rect.Top < 0)
+                    //{
+                    //    rect.Y = 0;
+                    //}
+                    //if (rect.Left < 0)
+                    //{
+                    //    rect.X = 0;
+                    //}
+                    //if (rect.Bottom > pictureBox1.Height)
+                    //{
+                    //    rect.Y = pictureBox1.Height - rect.Height;
+                    //}
+                    //Refresh();   
+
+
                 }
             }
         }
